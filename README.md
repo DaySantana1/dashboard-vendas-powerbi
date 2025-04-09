@@ -11,7 +11,9 @@ dashboard.pbix – Dashboard interativo desenvolvido no Power BI
 Utilizando três arquivos CSV disponibilizados (Clientes, Ordens de Serviço e Produtos Vendidos), foram realizadas:
 
 -📁 Integração e tratamento dos dados
+
 -🧮 Elaboração de consultas SQL para análises temporais e comparativas
+
 -📊 Criação de um dashboard no Power BI com os seguintes indicadores:
 
 Vendas mês a mês, com destaque para melhor e pior mês
