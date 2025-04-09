@@ -1,0 +1,26 @@
+SELECT 
+    cd_cliente,
+    ds_cliente,
+    mes,
+    total_vendas,
+    SUM(total_vendas) OVER (
+        PARTITION BY cd_cliente
+        ORDER BY mes
+        ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+    ) AS valor_acumulado,
+    total_vendas - LAG(total_vendas) OVER (
+        PARTITION BY cd_cliente
+        ORDER BY mes
+    ) AS comparativo_mensal
+FROM (
+    SELECT 
+        c.cd_cliente,
+        c.ds_cliente,
+        TO_CHAR(DATE_TRUNC('month', o.dt_ini), 'YYYY/MM') AS mes,
+        SUM(p.vl_quant * p.vl_preco_unitario) AS total_vendas
+    FROM clientes c
+    JOIN ordens_servico o ON c.cd_cliente = o.cd_cliente
+    JOIN produtos_vendidos p ON o.cd_os = p.cd_os
+    GROUP BY c.cd_cliente, c.ds_cliente, DATE_TRUNC('month', o.dt_ini)
+) AS vendas_mensais
+ORDER BY cd_cliente, mes;
