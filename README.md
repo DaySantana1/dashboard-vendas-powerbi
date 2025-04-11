@@ -1,20 +1,20 @@
-📊 Projeto de Avaliação Técnica - BI 
+Projeto de Avaliação Técnica - BI 
 Este repositório contém a solução desenvolvida para o desafio técnico da equipe de Business Intelligence de uma empresa. O objetivo é demonstrar habilidades em manipulação de dados, escrita de consultas SQL e desenvolvimento de dashboards interativos no Power BI.
 
-📂 Arquivos Entregues
+Arquivos Entregues
 
 consulta.sql – Consulta SQL com análise de vendas e comparativos mensais
 
 dashboard.pbix – Dashboard interativo desenvolvido no Power BI
 
-🔍 Descrição do Projeto
+Descrição do Projeto
 Utilizando três arquivos CSV disponibilizados (Clientes, Ordens de Serviço e Produtos Vendidos), foram realizadas:
 
--📁 Integração e tratamento dos dados
+-Integração e tratamento dos dados
 
--🧮 Elaboração de consultas SQL para análises temporais e comparativas
+-Elaboração de consultas SQL para análises temporais e comparativas
 
--📊 Criação de um dashboard no Power BI com os seguintes indicadores:
+-Criação de um dashboard no Power BI com os seguintes indicadores:
 
 Vendas mês a mês, com destaque para melhor e pior mês
 
