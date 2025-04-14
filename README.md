@@ -41,3 +41,6 @@ A análise e os dashboards permitiram identificar:
 ## Conclusão
 
 A solução oferece uma visão detalhada e interativa dos dados da empresa, proporcionando **insights** para decisões estratégicas. As **consultas SQL** e o **dashboard no Power BI** facilitam a análise e a otimização do desempenho da empresa.
+
+## Visualização do Dashboard
+ ![image](https://github.com/user-attachments/assets/6e02d567-e941-4f10-871f-5cf44287c23d)
