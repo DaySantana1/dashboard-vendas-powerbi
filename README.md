@@ -1,52 +1,43 @@
-Projeto de Avaliação Técnica - BI
-Este repositório contém a solução desenvolvida para o desafio técnico da equipe de Business Intelligence de uma empresa. O objetivo deste projeto é demonstrar habilidades na manipulação de dados, elaboração de consultas SQL e criação de dashboards interativos no Power BI.
+# Projeto de Avaliação Técnica - BI
 
-Arquivos Entregues
-consulta.sql: Consulta SQL que realiza a análise de vendas e comparativos mensais.
+Este repositório contém a solução desenvolvida para o desafio técnico da equipe de **Business Intelligence**. O objetivo deste projeto é demonstrar habilidades em **manipulação de dados**, **elaboração de consultas SQL** e **criação de dashboards no Power BI**.
 
-dashboard.pbix: Dashboard interativo desenvolvido no Power BI com indicadores detalhados sobre vendas, ordens de serviço e produtos.
+## Arquivos Entregues
 
-Descrição do Projeto
-O projeto foi realizado utilizando três arquivos CSV fornecidos (Clientes, Ordens de Serviço e Produtos Vendidos). As principais etapas incluem:
+- **consulta.sql**: Consulta SQL para análise de vendas e comparativos mensais.
+- **dashboard.pbix**: Dashboard interativo desenvolvido no Power BI.
 
-1. Integração e Tratamento dos Dados
-Os dados de clientes, ordens de serviço e produtos vendidos foram integrados e limpos, com a correção de inconsistências e a padronização dos formatos de dados.
+## Descrição do Projeto
 
-2. Elaboração de Consultas SQL
-Foram criadas consultas SQL para realizar análises temporais e comparativas, com o objetivo de identificar tendências e comportamentos no período analisado.
+O projeto foi realizado com três arquivos CSV: **Clientes**, **Ordens de Serviço** e **Produtos Vendidos**. As etapas principais incluem:
 
-A análise incluiu a comparação de vendas por mês, destacando os melhores e piores desempenhos.
+### 1. Integração e Tratamento dos Dados
+- Integração e limpeza dos dados para corrigir inconsistências e padronizar formatos.
 
-3. Criação de Dashboard no Power BI
-O dashboard desenvolvido no Power BI apresenta os seguintes indicadores, permitindo uma visualização clara e interativa dos dados:
+### 2. Elaboração de Consultas SQL
+- Análises temporais e comparativas para identificar tendências de vendas e desempenho mensal.
 
-Vendas Mês a Mês: Exibição das vendas realizadas por mês, com destaque para o melhor e pior mês de vendas. O gráfico de barras ou linha mostra a variação de vendas ao longo dos meses, facilitando a identificação de picos e quedas.
+### 3. Criação de Dashboard no Power BI
+O dashboard apresenta os seguintes indicadores:
 
-Ordens de Serviço por Mês: Análise do volume de ordens de serviço por mês, também com destaque para o melhor e pior mês. Esse indicador ajuda a entender a relação entre vendas e serviços prestados ao longo do tempo.
+- **Vendas Mês a Mês**: Vendas por mês, destacando o melhor e pior mês.
+- **Ordens de Serviço por Mês**: Volume de ordens de serviço, com destaque para os melhores e piores meses.
+- **Ranking de Clientes por Volume de Vendas**: Identificação dos principais clientes.
+- **Ranking de Grupos de Produtos Vendidos**: Análise das categorias de produtos mais vendidas.
+- **Total Geral de Vendas**: Visão consolidada de todas as vendas.
+- **Preço Médio dos Produtos Vendidos**: Cálculo do preço médio de vendas.
 
-Ranking de Clientes por Volume de Vendas: Ranking dos principais clientes com base no volume de vendas, permitindo identificar os clientes que mais contribuem para o faturamento da empresa.
+## Resultados da Análise
 
-Ranking de Grupos de Produtos Vendidos: Classificação dos grupos de produtos mais vendidos, fornecendo insights sobre quais categorias de produtos são mais populares e geram mais receita.
+A análise e os dashboards permitiram identificar:
 
-Total Geral de Vendas: Um indicador geral de todas as vendas realizadas durante o período, proporcionando uma visão consolidada do desempenho da empresa.
+- **Melhor e Pior Mês de Vendas**: Identificação dos meses de maior e menor desempenho.
+- **Tendências de Ordens de Serviço**: Avaliação do padrão sazonal das ordens de serviço.
+- **Comportamento de Clientes**: Identificação dos principais consumidores e possíveis estratégias de marketing.
+- **Categorias de Produtos Populares**: Insights sobre os produtos mais vendidos e decisões de estoque.
+- **Visão Consolidada de Vendas**: Análise do desempenho geral e comparação de crescimento.
+- **Análise de Preços**: Avaliação das estratégias de preços e margem de lucro.
 
-Preço Médio dos Produtos Vendidos: Cálculo do preço médio dos produtos vendidos, útil para análise de estratégias de preços e margem de lucro.
+## Conclusão
 
-Resultados da Análise
-Através da análise e dos dashboards gerados, conseguimos identificar:
-
-Melhor e Pior Mês de Vendas: A solução permitiu identificar os meses com maior e menor desempenho, permitindo que a equipe de BI proponha ações corretivas ou de crescimento com base nos padrões observados.
-
-Tendências de Ordens de Serviço: Com o comparativo mensal das ordens de serviço, foi possível avaliar a carga de trabalho ao longo dos meses e observar se as ordens de serviço seguem um padrão sazonal ou se são impactadas pelas vendas.
-
-Comportamento de Clientes: O ranking de clientes revelou quais são os principais consumidores da empresa, ajudando na personalização de estratégias de marketing e atendimento ao cliente.
-
-Categorias de Produtos Populares: A análise dos grupos de produtos vendidos permitiu entender quais categorias estão gerando mais vendas, contribuindo para a tomada de decisões relacionadas ao estoque e marketing.
-
-Visão Consolidada de Vendas: O total geral de vendas fornece uma visão clara sobre o desempenho financeiro da empresa e pode ser utilizado para comparar o crescimento ano a ano ou mês a mês.
-
-Análise de Preços: O cálculo do preço médio dos produtos vendidos possibilita a avaliação de estratégias de preços e ajustes necessários para melhorar a competitividade no mercado.
-
-Conclusão
-A solução desenvolvida oferece uma visão detalhada e interativa dos dados da empresa, proporcionando insights para a tomada de decisões estratégicas. O uso de consultas SQL para análise detalhada e a criação do dashboard no Power BI permitem uma visualização clara das tendências de vendas e do comportamento de clientes, facilitando a análise e a formulação de estratégias para otimizar o desempenho da empresa.
-
+A solução oferece uma visão detalhada e interativa dos dados da empresa, proporcionando **insights** para decisões estratégicas. As **consultas SQL** e o **dashboard no Power BI** facilitam a análise e a otimização do desempenho da empresa.
